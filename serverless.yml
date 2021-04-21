@@ -38,4 +38,4 @@ functions:
     events:
       - httpApi:
           path: /mycalculator
-          method: post
+          method: get
