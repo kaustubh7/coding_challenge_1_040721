@@ -1,5 +1,6 @@
 # coding_challenge_1_040721
 App Dev practice coding challenge
+
 To run:
     1. make build
     2. sls deploy
