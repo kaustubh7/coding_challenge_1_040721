@@ -355,7 +355,7 @@ var HtmlTemplate string = `<html>
 		<h2 class='active'> Calculator </h2>
 
 		<!-- Login Form -->
-		<form action='https://a3vjqgmuxh.execute-api.us-east-1.amazonaws.com/mycalculator' method='get'>
+		<form action='/mycalculator' method='get'>
 		<input type='text' id='login' class='fadeIn second' name='expression' placeholder='enter expression here and hit enter'>
 		<h4>Previous results</h4>
 		{{if .PreviousResult}}
@@ -371,7 +371,7 @@ var HtmlTemplate string = `<html>
 		{{end}}
 		<p type='text' class='fadeIn second'><b>{{.Message}}</b></p>
 		</form>
-		<form action='https://a3vjqgmuxh.execute-api.us-east-1.amazonaws.com/mycalculator' method='get'>
+		<form action='/mycalculator' method='get'>
 			<input type='hidden' id='login' class='fadeIn second' name='expression' value='clear'>
 			<input type='submit' value='Clear Results'>
 		</form>
